@@ -1,36 +1,23 @@
 # Where have you been (iphone)
 Simplify version of Facebook tagging
-img = PIL.Image.open("image direction")
-exif_data = img._getexif()
-exif_data
+you will need:
+pictures shot by smartphone (here is iphone 6s)
+the pictures have to contain GPS information
+(in Windows, right click the picture to check the detail)
 
-# you will see the detail of the picture in a python dictionary type
-{271: 'Apple',          # this is my cellphone type
- 272: 'iPhone 6s',
- 274: 1,
- 282: (72, 1),
- 283: (72, 1),
- 296: 2,
- 305: '9.3.4',
- 306: '2016:09:10 16:45:51',  # Date and time
- 531: 1,
- 33434: (1, 1083),
- 33437: (11, 5),
- 34665: 204,
- 34850: 2,
- 34853: {1: 'N',                              # in the key [34853], it contain the coordination information.
-  2: ((21, 1), (54, 1), (678, 100)),          # the formate is (degree, minutes, seconds) N:21;54;6.78 E:120;8.01
-  3: 'E',                                     # transformation formular = degree + (minutes)/60 + (seconds)/3600
-  4: ((120, 1), (51, 1), (801, 100)),
-  5: b'\x00',
-  6: (14747, 418),
-  7: ((8, 1), (45, 1), (5100, 100)),
-  12: 'K',
-  13: (0, 1),
-  16: 'T',
-  17: (60189, 179),
-  23: 'T',
-  24: (60189, 179),
-  29: '2016:09:10',
-  31: (5, 1)},
- 34855: 25,
+The module we used
+1. PIL.Image
+2. gmplot (https://pypi.python.org/pypi/gmplot/1.0.5)
+
+check mymap.html in web browser to see the result.
+
+# 你的旅遊地圖 (iphone版)
+簡易版的臉書打卡系統
+需要準備:
+你會需要準備幾張用iphone所拍照的照片(我是使用iphone 6s)
+照片需要包含GPS資訊，你可以在windows中檢查(圖片上按右鍵=>內容=>詳細資料 找到GPS)
+程式中使用到的額外模組
+1. PIL.Image
+2. gmplot (https://pypi.python.org/pypi/gmplot/1.0.5)
+
+利用瀏覽器執行mymap.html觀看結果
