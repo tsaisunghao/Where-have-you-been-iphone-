@@ -55,8 +55,9 @@ for picture in pictures:
 # In[28]:
 
 print (latitudes)
+#[35.696, 52.271, 24.148, 24.969, 21.902, 23.219, 34.667, 34.839, 35.124, 25.08, 24.182, 33.167, 33.267, 32.885, 37.89]
 print (longitudes)
-
+#[139.57, 4.547, 120.665, 121.588, 120.852, 121.308, 135.431, 134.694, 135.764, 121.237, 120.616, 130.415, 131.369, 131.054, 126.739]
 
 # ### gmplot is an API for offline google map
 # refer this page for detail https://pypi.python.org/pypi/gmplot/1.0.5
