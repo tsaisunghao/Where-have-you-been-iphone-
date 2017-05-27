@@ -1,5 +1,5 @@
 # Where have you been (iphone)
-Simplify version of Facebook tagging
+Simplify version of Facebook tagging.
 
 
 you will need:
@@ -14,7 +14,7 @@ The module we used
 check mymap.html in web browser to see the result.
 
 # 你的旅遊地圖 (iphone版)
-簡易版的臉書打卡系統
+簡易版的臉書打卡系統。
 需要準備:
 你會需要準備幾張用iphone所拍照的照片(我是使用iphone 6s)
 照片需要包含GPS資訊，你可以在windows中檢查(圖片上按右鍵=>內容=>詳細資料 找到GPS)
