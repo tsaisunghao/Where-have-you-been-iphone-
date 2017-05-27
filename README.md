@@ -1,5 +1,6 @@
 # Where have you been (iphone)
 Simplify version of Facebook tagging
+
 you will need:
 pictures shot by smartphone (here is iphone 6s)
 the pictures have to contain GPS information
